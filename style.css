@@ -1,0 +1,48 @@
+body {
+  color: #000000;
+}
+
+.title {
+  padding: 20px;
+  background-color: #675269;
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.vibor {
+  padding: 120px;
+  text-align: center;
+}
+
+select, input {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.form_radio_btn {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form_radio_btn input[type=radio] {
+  display: none;
+}
+
+.form_radio_btn label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 25px;
+  line-height: 40px;
+  border: 1px solid #767676;
+  border-radius: 12px;
+  font-size: 24px;
+  user-select: none;
+}
+
+.form_radio_btn input[type=radio]:checked + label {
+  background: #2bce0a;
+}
